@@ -39,7 +39,7 @@ O código da plataforma foi sincronizado com o repositório no GitHub, garantind
 ## 11 de Fevereiro de 2026
 
 ### Ferramenta de preenchimento automático com IA
-Lançada a ferramenta de IA para auxiliar na candidatura de incentivos. O usuário faz o upload do edital em PDF e a IA analisa o documento, gera um formulário personalizado e preenche as respostas automaticamente. Disponível em: `https://platform.hipglobal.com.br/ia-forms/`
+Lançada a ferramenta de IA para auxiliar na candidatura de incentivos. O usuário faz o upload do edital em PDF e a IA analisa o documento, gera um formulário personalizado e preenche as respostas automaticamente.
 
 ### Aprovação automática de candidaturas
 Adicionada opção no painel administrativo para aprovar candidaturas automaticamente no momento do envio. Quando ativada, o usuário recebe uma notificação imediata de aprovação.
