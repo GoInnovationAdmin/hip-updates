@@ -6,18 +6,16 @@
 
 ## 04 de Maio de 2026
 
+### Lista de candidatos no detalhe do incentivo (Admin)
+Na área administrativa, ao abrir os detalhes de um incentivo, agora também aparece a lista de pessoas que se candidataram.
+
+Essa visualização mostra nome, empresa, e-mail, telefone, status e data da candidatura, facilitando o acompanhamento sem precisar abrir outras telas.
+
 ### Correção no valor do incentivo com centavos
 Foi corrigido o preenchimento do valor no cadastro de incentivo para aceitar formatos como `US$178,00`, sem transformar o valor em zero.
 
 Também foi ajustada a edição posterior, para que o valor salvo possa ser alterado normalmente sem precisar excluir e cadastrar novamente.
 
-### Novo padrão oficial de documentação do projeto
-Foi definido um padrão fixo para manter a documentação sempre atualizada:
-- Toda entrega relevante passa a ser registrada no `CHANGELOG.md`
-- O texto do changelog deve continuar em linguagem simples, voltada ao cliente
-- O `PROJECT_DOCUMENTATION.md` também deve ser atualizado junto com cada mudança importante
-
-Com isso, o histórico do projeto fica mais claro, consistente e fácil de acompanhar.
 
 ---
 
