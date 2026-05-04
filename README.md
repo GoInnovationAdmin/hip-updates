@@ -6,6 +6,11 @@
 
 ## 04 de Maio de 2026
 
+### Correção no valor do incentivo com centavos
+Foi corrigido o preenchimento do valor no cadastro de incentivo para aceitar formatos como `US$178,00`, sem transformar o valor em zero.
+
+Também foi ajustada a edição posterior, para que o valor salvo possa ser alterado normalmente sem precisar excluir e cadastrar novamente.
+
 ### Novo padrão oficial de documentação do projeto
 Foi definido um padrão fixo para manter a documentação sempre atualizada:
 - Toda entrega relevante passa a ser registrada no `CHANGELOG.md`
