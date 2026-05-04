@@ -4,6 +4,18 @@
 
 ---
 
+## 04 de Maio de 2026
+
+### Novo padrão oficial de documentação do projeto
+Foi definido um padrão fixo para manter a documentação sempre atualizada:
+- Toda entrega relevante passa a ser registrada no `CHANGELOG.md`
+- O texto do changelog deve continuar em linguagem simples, voltada ao cliente
+- O `PROJECT_DOCUMENTATION.md` também deve ser atualizado junto com cada mudança importante
+
+Com isso, o histórico do projeto fica mais claro, consistente e fácil de acompanhar.
+
+---
+
 ## 30 de Abril de 2026
 
 ### Administrador pode visualizar a plataforma como Seeker ou Publisher
