@@ -4,7 +4,34 @@
 
 ---
 
-## 04 de Maio de 2026
+## 05 de Maio de 2026
+
+### Cadastro de edital com múltiplas categorias
+O cadastro de incentivo passou a permitir selecionar mais de uma categoria no mesmo edital.
+
+Com isso, um edital pode ser classificado de forma mais completa, sem limitar a apenas uma categoria.
+
+Também foi feita uma atualização de compatibilidade para manter os editais antigos funcionando normalmente durante a transição.
+
+### Ajuste nas opções de "Tipos de Incentivo" criadas no Admin
+Foi corrigido o comportamento para que novas opções adicionadas no painel administrativo (como `Prize`/`Prêmio`) apareçam corretamente nos formulários de cadastro e filtros.
+
+Além da atualização em tempo real no backend, também foi ajustado o cache local para reduzir atrasos de atualização no navegador.
+
+### Melhor visual para selecionar múltiplas categorias
+O campo de categorias no cadastro de incentivo foi ajustado para mostrar uma lista com marcação individual, facilitando selecionar mais de uma categoria.
+
+As categorias escolhidas agora aparecem como etiquetas abaixo do campo, deixando claro quais opções foram selecionadas.
+
+### Admin e filtros com múltiplas categorias
+A edição de incentivo no painel administrativo também passou a aceitar múltiplas categorias.
+
+As telas de busca, filtros e recomendações agora consideram todas as categorias vinculadas ao edital, e não apenas a primeira.
+
+### Tradução de opções no Admin
+As opções de categoria, indústria e país no Admin agora respeitam o idioma selecionado.
+
+Isso corrige casos em que etiquetas e filtros apareciam em inglês mesmo com a plataforma em português.
 
 ### Lista de candidatos no detalhe do incentivo (Admin)
 Na área administrativa, ao abrir os detalhes de um incentivo, agora também aparece a lista de pessoas que se candidataram.
@@ -15,6 +42,11 @@ Essa visualização mostra nome, empresa, e-mail, telefone, status e data da can
 Foi corrigido o preenchimento do valor no cadastro de incentivo para aceitar formatos como `US$178,00`, sem transformar o valor em zero.
 
 Também foi ajustada a edição posterior, para que o valor salvo possa ser alterado normalmente sem precisar excluir e cadastrar novamente.
+
+### Ajuste nos filtros de Indústria e Categoria em Explorar Incentivos
+Foi corrigida a lista de opções dos filtros para evitar itens duplicados e organizar os nomes em ordem alfabética.
+
+Com isso, a navegação ficou mais clara e rápida, sem repetição de opções como `Esportes` e com categorias na ordem correta.
 
 
 ---
