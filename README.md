@@ -6,6 +6,28 @@
 
 ## 06 de Maio de 2026
 
+### Incentivos sem valor declarado
+Foi adicionada a opção "Incentivo sem valor declarado" no cadastro de incentivos.
+
+Quando marcada, o campo de valor fica bloqueado e a plataforma passa a tratar o incentivo como valor variável.
+
+Nas telas onde o valor do incentivo é exibido, valores variáveis agora aparecem como "Valor variável", com tradução para os idiomas disponíveis.
+
+### Ajuste no cadastro de incentivo
+O botão redundante de upload de arquivo foi removido do bloco de links do cadastro de incentivo.
+
+Agora esse bloco é usado apenas para links relacionados, enquanto PDFs do edital e documentos adicionais devem ser enviados pela área de anexos.
+
+### Ajuste na tela de login
+A seleção "Qual o seu perfil?" foi removida da tela de login.
+
+Agora o acesso usa apenas e-mail e senha, e a plataforma identifica automaticamente o perfil vinculado à conta.
+
+### Correção no cadastro de usuário
+O indicador de etapas do cadastro agora mostra 3 etapas tanto para Pessoa Física quanto para Empresa.
+
+O campo "Qual o seu perfil?" também passou a ser sinalizado como obrigatório.
+
 ### Correção na edição de Incentivos Publicados
 Foi corrigida a edição de incentivos feita pelo publicador na nova área "Incentivos Publicados".
 
@@ -27,6 +49,104 @@ Os botões ficam bloqueados durante o processamento, deixando claro que a ação
 Foi corrigida a exibição da data de criação na tela "Incentivos Publicados".
 
 Datas vindas do sistema agora são interpretadas corretamente, evitando a mensagem "Invalid Date".
+
+### Ajustes nas telas do Publisher
+As telas "Painel de controle" e "Fluxo de trabalho" do perfil Publisher foram alinhadas com os textos e melhorias visuais já aplicados ao perfil Seeker.
+
+O Publisher agora conta com orientações no painel, textos atualizados e melhor consistência no fluxo de candidaturas.
+
+### Ajuste de indicadores do Publisher
+No painel do Publisher, o indicador "Candidaturas recebidas" foi renomeado para "Incentivos adicionados".
+
+O texto de ajuda agora explica que o número representa incentivos do publicador adicionados por usuários ao fluxo de trabalho.
+
+O card "Correspondências Completas" foi removido do painel do Publisher, pois o fluxo passou a ser automático.
+
+### Atualização de textos do fluxo de incentivos
+Textos visíveis que ainda mencionavam candidatura, aplicação, aprovação ou rejeição foram revisados para refletir o fluxo atual.
+
+Agora, ao adicionar um incentivo, a comunicação usa termos como "Adicionando incentivo", "Incentivo adicionado" e "Fluxo de trabalho".
+
+### Correção emergencial no login
+O login voltou a funcionar corretamente após ajuste na configuração de proteção das senhas para respeitar o limite suportado pelo ambiente de execução.
+
+Com isso, o acesso ao Admin e à lista de incentivos foi normalizado.
+
+### Correção na tela de Incentivos do Admin
+A tela de Incentivos do Admin voltou a enviar a autenticação nas chamadas de listagem, visualização, edição, exclusão e upload de PDF.
+
+Isso corrige a mensagem de acesso não autorizado exibida apenas nessa área do Admin.
+
+### Detalhe administrativo do incentivo
+A tela de detalhes de incentivo no Admin agora mostra quem cadastrou o incentivo.
+
+Também foi corrigido o carregamento dos dados de "Cadastrado por" e "País" nesse detalhe.
+
+A listagem de incentivos no Admin também passou a mostrar a coluna "Criado por" após a data de cadastro.
+
+Também foi corrigido o envio do nome do cadastrante pela API da listagem, para preencher essa coluna corretamente.
+
+### Ajustes no Painel administrativo
+Os textos do dashboard do Admin foram padronizados em português.
+
+Os indicadores também foram renomeados para diferenciar incentivos cadastrados de incentivos adicionados ao fluxo.
+
+O cache interno do dashboard foi renovado para evitar exibição temporária de dados antigos.
+
+Os nomes exibidos nos gráficos de indústrias, países e categorias também foram traduzidos para português.
+
+### Correção no fluxo de trabalho do Seeker
+Após adicionar um incentivo, a tela "Fluxo de Trabalho" agora carrega corretamente a visão do Seeker.
+
+Com isso, o incentivo recém-adicionado aparece no card "Meus Incentivos" logo após o redirecionamento.
+
+### Ajuste visual no Fluxo de Trabalho do Seeker
+A coluna lateral "Combinações de Incentivos" foi removida da visão Seeker para evitar duplicação com "Meus Incentivos".
+
+O card "Correspondências Completas" foi mantido na tela, mas fica vazio por enquanto.
+
+### Remoção de incentivo pelos meus incentivos
+Na página de detalhe de um incentivo já adicionado, agora existe o botão "Remover".
+
+Antes da remoção, o sistema mostra uma confirmação perguntando se o usuário deseja remover o item dos seus incentivos.
+
+### Reforço de segurança das APIs
+As APIs administrativas passaram a exigir validação administrativa de forma centralizada.
+
+Também foram reforçadas as regras de origem permitida e os cabeçalhos de segurança das respostas da plataforma.
+
+### Reforço de segurança da sessão
+O tempo de sessão foi ajustado para o limite de 30 dias.
+
+Ao sair da plataforma, o acesso também passa a ser encerrado no servidor antes da limpeza local do navegador.
+
+Os limites de tentativas de login, cadastro e recuperação de senha também foram reforçados.
+
+### Reforço de proteção de senhas e arquivos
+Novas senhas passam a usar proteção mais forte com salt e múltiplas iterações.
+
+Usuários antigos continuam acessando normalmente, e a proteção da senha é atualizada automaticamente no próximo login bem-sucedido.
+
+O acesso direto a arquivos por caminho no storage também foi reforçado para exigir permissão quando o arquivo não for um documento público de incentivo.
+
+### Revisão dos acessos públicos
+Os endpoints públicos necessários para cadastro, configurações públicas e listas auxiliares foram revisados.
+
+A validação pública de códigos afiliados agora retorna apenas as informações necessárias para o cadastro.
+
+Os anexos de incentivos seguem públicos quando pertencem a incentivos visíveis, mas passam a exigir permissão quando o incentivo não estiver público.
+
+### Reforço adicional contra abuso
+Uploads, análise de PDF por IA, inscrições de newsletter e validação de códigos afiliados passaram a ter limites específicos de uso.
+
+Uploads de PDF foram restringidos para aceitar apenas arquivos PDF de até 100MB.
+
+Após a redefinição de senha, sessões antigas do usuário passam a ser invalidadas.
+
+Logs detalhados com conteúdo sensível deixam de ser exibidos em produção.
+
+### Ajuste de privacidade no detalhe do incentivo
+O nome do usuário que cadastrou o incentivo deixou de aparecer na tela de detalhe do incentivo.
 
 ## 05 de Maio de 2026
 
