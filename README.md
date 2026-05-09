@@ -4,6 +4,15 @@
 
 ---
 
+## 09 de Maio de 2026
+
+### Correção segura dos erros de lint
+A base do projeto foi reorganizada para que a verificação de qualidade ignore pastas de referência, backups e arquivos gerados.
+
+Os erros que bloqueavam a validação foram corrigidos sem alterar o funcionamento das telas.
+
+Agora o lint passa sem erros antes do deploy.
+
 ## 06 de Maio de 2026
 
 ### Incentivos sem valor declarado
