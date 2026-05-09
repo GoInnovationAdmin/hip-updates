@@ -6,6 +6,18 @@
 
 ## 09 de Maio de 2026
 
+### Versão visível na plataforma
+A plataforma agora exibe a versão atual acima do botão "Sair".
+
+A versão é carregada a partir de um arquivo externo de controle e pode ser atualizada sem alterar o código da plataforma.
+
+Quando uma nova versão for detectada, o usuário verá um aviso para recarregar a página.
+
+### Correção de exibição de prazos
+Foi corrigida a exibição de datas de prazo dos incentivos para evitar diferença de um dia causada por fuso horário.
+
+Agora a data exibida na visualização permanece igual à data cadastrada ou editada.
+
 ### Correção segura dos erros de lint
 A base do projeto foi reorganizada para que a verificação de qualidade ignore pastas de referência, backups e arquivos gerados.
 
