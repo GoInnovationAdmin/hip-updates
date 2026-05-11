@@ -4,6 +4,16 @@
 
 ---
 
+## 11 de Maio de 2026
+
+### Ajuste nos incentivos recomendados
+Foi corrigida a exibição de incentivos recomendados na tela de explorar incentivos.
+
+A plataforma agora evita reutilizar listas vazias em cache e prioriza recomendações válidas já calculadas para o usuário.
+
+### Versão V1.0.5
+A versão da plataforma foi atualizada para V1.0.5 após a correção dos recomendados.
+
 ## 09 de Maio de 2026
 
 ### Versão visível na plataforma
