@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Ajustes visuais e paginação de recomendados
+A coluna de recomendados agora ocupa melhor a altura da tela e a visualização de recomendados na área principal passou a paginar de 9 em 9 itens.
+
+### Versão V1.0.15
+A versão da plataforma foi atualizada para V1.0.15 após os ajustes finais na tela de exploração de incentivos.
+
 ### Correção na paginação de incentivos
 A listagem de incentivos agora informa corretamente o total de resultados e permite navegar de 9 em 9 cards sem esconder páginas disponíveis.
 
