@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Correção no cálculo de recomendações por projeto
+As recomendações por projeto passaram a usar uma nova chave de cache e uma normalização mais ampla dos objetivos, evitando que projetos com critérios válidos apareçam sem recomendações.
+
+### Versão V1.0.18
+A versão da plataforma foi atualizada para V1.0.18 após a correção do cálculo de recomendações do Projeto 2.
+
 ### Correção ao salvar projetos
 Salvar ou atualizar um projeto voltou a funcionar mesmo quando o cálculo de recomendações encontra algum problema temporário.
 
