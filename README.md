@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Correção na quantidade de recomendados
+A lista de incentivos recomendados voltou a mostrar até 50 itens, evitando a redução indevida para apenas 15 recomendações.
+
+### Versão V1.0.13
+A versão da plataforma foi atualizada para V1.0.13 após a correção da quantidade de recomendações exibidas.
+
 ### Melhorias em Explorar Incentivos
 A tela de exploração agora mostra a quantidade de incentivos recomendados, deixa os seletores mais claros e adiciona filtros por faixa de prazo e valor, incluindo ordenação por maior ou menor valor.
 
