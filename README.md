@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Correção ao salvar projetos
+Salvar ou atualizar um projeto voltou a funcionar mesmo quando o cálculo de recomendações encontra algum problema temporário.
+
+### Versão V1.0.17
+A versão da plataforma foi atualizada para V1.0.17 após a correção do erro ao atualizar projetos.
+
 ### Recomendações geradas ao salvar projetos
 Ao criar ou alterar um projeto, as recomendações agora são calculadas imediatamente, evitando que novos projetos apareçam sem resultados até a próxima consulta.
 
