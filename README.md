@@ -6,6 +6,15 @@
 
 ## 11 de Maio de 2026
 
+### Atualização automática de recomendações por projeto
+As recomendações por projeto agora são recalculadas em lote pelo cron do Worker, priorizando projetos nunca calculados ou com cálculo mais antigo. O processamento é limitado por execução para evitar sobrecarga no D1 e manter as leituras usando cache/KV.
+
+### Correção do Projeto 2 sem recomendações
+O fallback de recomputação foi ajustado para evitar excesso de variáveis SQL no D1 e preencher `project_recommendations` corretamente. O Projeto 2 foi validado com 50 recomendações salvas.
+
+### Versão V1.0.19
+A versão da plataforma foi atualizada para V1.0.19 após a correção e automação dos matches por projeto.
+
 ### Correção no cálculo de recomendações por projeto
 As recomendações por projeto passaram a usar uma nova chave de cache e uma normalização mais ampla dos objetivos, evitando que projetos com critérios válidos apareçam sem recomendações.
 
