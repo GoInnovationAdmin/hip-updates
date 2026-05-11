@@ -6,6 +6,21 @@
 
 ## 11 de Maio de 2026
 
+### Dashboard e métricas de incentivos
+O painel passou a exibir os principais indicadores em formato mais claro: incentivos recomendados, meus incentivos, incentivos disponíveis e seus valores resumidos em K/MM para facilitar a leitura.
+
+### Remoção de favoritos
+A opção de incentivos favoritos foi removida da navegação e da interface, alinhando a experiência ao novo fluxo de incentivos adicionados.
+
+### Incentivos vinculados a projetos
+Ao adicionar um incentivo, usuários com mais de um projeto agora escolhem em qual projeto ele será salvo. Os incentivos já adicionados anteriormente foram associados ao projeto padrão do usuário.
+
+### Fluxo de trabalho por projeto
+A tela de Fluxo de Trabalho agora organiza Meus Incentivos em grupos por projeto e remove as etiquetas de aprovação que não fazem mais parte do fluxo.
+
+### Versão V1.1.2
+A versão da plataforma foi atualizada para V1.1.2 após os ajustes de dashboard, fluxo de trabalho e vínculo de incentivos a projetos.
+
 ### Atualização automática de recomendações por projeto
 As recomendações por projeto agora são recalculadas em lote pelo cron do Worker, priorizando projetos nunca calculados ou com cálculo mais antigo. O processamento é limitado por execução para evitar sobrecarga no D1 e manter as leituras usando cache/KV.
 
