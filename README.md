@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Correção na paginação de incentivos
+A listagem de incentivos agora informa corretamente o total de resultados e permite navegar de 9 em 9 cards sem esconder páginas disponíveis.
+
+### Versão V1.0.14
+A versão da plataforma foi atualizada para V1.0.14 após a correção da paginação e atualização do cache de recomendados.
+
 ### Correção na quantidade de recomendados
 A lista de incentivos recomendados voltou a mostrar até 50 itens, evitando a redução indevida para apenas 15 recomendações.
 
