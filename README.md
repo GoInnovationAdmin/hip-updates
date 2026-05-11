@@ -6,6 +6,21 @@
 
 ## 11 de Maio de 2026
 
+### Correção no login
+A tela de login voltou a carregar sem chamadas indevidas para projetos quando o usuário ainda não está autenticado.
+
+### Versão V1.0.9
+A versão da plataforma foi atualizada para V1.0.9 após a correção do login.
+
+### Ajustes de idioma e botão em Projetos
+A tela de Projetos passou a usar traduções nos novos textos e o botão de criação agora mostra "Salvar" ao cadastrar um novo projeto.
+
+### Tratamento seguro dos recomendados por projeto
+Foi adicionado um tratamento seguro para evitar erro de carregamento ao filtrar recomendações por um projeto recém-criado.
+
+### Versão V1.0.8
+A versão da plataforma foi atualizada para V1.0.8 após os ajustes de tradução e recomendados por projeto.
+
 ### Ajuste na criação de projetos
 Foi corrigido o botão de novo projeto para abrir corretamente o formulário de cadastro.
 
