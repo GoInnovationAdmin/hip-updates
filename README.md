@@ -6,6 +6,21 @@
 
 ## 11 de Maio de 2026
 
+### Afiliados com dashboard e gestão de códigos
+A área de Afiliados foi reorganizada com submenu próprio, incluindo Dashboard, Meus Afiliados e Códigos. Agora usuários podem criar e gerenciar seus próprios códigos de afiliado, com o proprietário fixo no usuário logado.
+
+### Dashboard de afiliados
+Foi criado um dashboard dedicado com métricas de afiliados, códigos ativos, incentivos recomendados, incentivos adicionados, empresas afiliadas, usuários individuais, códigos mais usados e afiliados recentes.
+
+### Ajustes para publishers
+O menu de publishers passou a mostrar Incentivos Publicados acima de Afiliados. A listagem de incentivos publicados foi ajustada para não depender do perfil salvo no token e o dashboard do publisher passou a limpar cache ao publicar ou atualizar incentivos.
+
+### Melhorias técnicas e visuais
+O submenu de Afiliados passou a seguir o mesmo padrão visual de Meu Perfil, e foi adicionado tratamento específico para ocultar um erro externo recorrente de core.js sem esconder erros reais da plataforma.
+
+### Versão V1.1.3
+A versão da plataforma foi atualizada para V1.1.3 após as melhorias em Afiliados, ajustes de publisher e correções de cache.
+
 ### Dashboard e métricas de incentivos
 O painel passou a exibir os principais indicadores em formato mais claro: incentivos recomendados, meus incentivos, incentivos disponíveis e seus valores resumidos em K/MM para facilitar a leitura.
 
