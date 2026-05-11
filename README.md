@@ -6,6 +6,17 @@
 
 ## 11 de Maio de 2026
 
+### Ajuste na criação de projetos
+Foi corrigido o botão de novo projeto para abrir corretamente o formulário de cadastro.
+
+### Ajuste nos recomendados por projeto
+Foi corrigida a exibição de incentivos recomendados para considerar as recomendações já salvas por projeto.
+
+Agora a visão "Todos os projetos" e a visão por projeto individual voltam a exibir oportunidades compatíveis.
+
+### Versão V1.0.7
+A versão da plataforma foi atualizada para V1.0.7 após os ajustes na camada de projetos.
+
 ### Projetos no perfil do usuário
 O antigo Perfil de Correspondência foi evoluído para Projetos.
 
