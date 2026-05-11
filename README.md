@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Cadastro mais claro e países traduzidos
+A lista de países no cadastro agora respeita o idioma selecionado e a conclusão do cadastro exibe uma mensagem clara antes do login.
+
+### Versão V1.0.11
+A versão da plataforma foi atualizada para V1.0.11 após as melhorias no fluxo de cadastro.
+
 ### Correção da lista de países no cadastro
 A lista de países do cadastro voltou a carregar corretamente e agora possui fallback local para evitar campo vazio em caso de falha temporária da API.
 
