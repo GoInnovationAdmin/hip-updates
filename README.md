@@ -6,6 +6,26 @@
 
 ## 11 de Maio de 2026
 
+### Projetos no perfil do usuário
+O antigo Perfil de Correspondência foi evoluído para Projetos.
+
+Agora usuários seekers podem organizar suas informações de correspondência em projetos separados, cada um com briefing, objetivos, países e indústrias alvo próprios.
+
+Os cadastros existentes foram preservados e migrados automaticamente para um projeto inicial chamado "Projeto 1".
+
+### Recomendações por projeto
+A tela Explorar Incentivos agora permite filtrar os incentivos recomendados por projeto ou visualizar todos.
+
+Com isso, cada projeto pode ter uma visão própria de oportunidades compatíveis.
+
+### Cadastro com briefing de projeto
+No cadastro de usuários seekers, passou a ser obrigatório informar os dados do primeiro projeto, incluindo o briefing do projeto.
+
+Usuários publishers continuam podendo concluir o cadastro sem projeto.
+
+### Versão V1.0.6
+A versão da plataforma foi atualizada para V1.0.6 após a entrega da camada de projetos.
+
 ### Ajuste nos incentivos recomendados
 Foi corrigida a exibição de incentivos recomendados na tela de explorar incentivos.
 
