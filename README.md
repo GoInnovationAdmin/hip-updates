@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Recomendações geradas ao salvar projetos
+Ao criar ou alterar um projeto, as recomendações agora são calculadas imediatamente, evitando que novos projetos apareçam sem resultados até a próxima consulta.
+
+### Versão V1.0.16
+A versão da plataforma foi atualizada para V1.0.16 após a correção do cálculo inicial de recomendações por projeto.
+
 ### Ajustes visuais e paginação de recomendados
 A coluna de recomendados agora ocupa melhor a altura da tela e a visualização de recomendados na área principal passou a paginar de 9 em 9 itens.
 
