@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Correção da lista de países no cadastro
+A lista de países do cadastro voltou a carregar corretamente e agora possui fallback local para evitar campo vazio em caso de falha temporária da API.
+
+### Versão V1.0.10
+A versão da plataforma foi atualizada para V1.0.10 após a correção da lista de países no cadastro.
+
 ### Correção no login
 A tela de login voltou a carregar sem chamadas indevidas para projetos quando o usuário ainda não está autenticado.
 
