@@ -6,6 +6,12 @@
 
 ## 11 de Maio de 2026
 
+### Melhorias em Explorar Incentivos
+A tela de exploração agora mostra a quantidade de incentivos recomendados, deixa os seletores mais claros e adiciona filtros por faixa de prazo e valor, incluindo ordenação por maior ou menor valor.
+
+### Versão V1.0.12
+A versão da plataforma foi atualizada para V1.0.12 após as melhorias na experiência de exploração de incentivos.
+
 ### Cadastro mais claro e países traduzidos
 A lista de países no cadastro agora respeita o idioma selecionado e a conclusão do cadastro exibe uma mensagem clara antes do login.
 
