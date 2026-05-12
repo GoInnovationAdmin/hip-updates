@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.16
+A versão da plataforma foi atualizada para V1.2.16 após correção de tradução no menu de Recomendações.
+
+### Recomendações traduzidas corretamente
+O item de menu Recomendações agora acompanha o idioma selecionado pelo usuário. A correção garante que a navegação fique consistente ao alternar entre português, inglês e espanhol.
+
 ### Versão V1.2.15
 A versão da plataforma foi atualizada para V1.2.15 após a aprovação do layout compacto da tela de Recomendações.
 
