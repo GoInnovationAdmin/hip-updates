@@ -4,154 +4,115 @@
 
 ---
 
+## 12 de Maio de 2026
+
+### Versão V1.2.8
+A versão da plataforma foi atualizada para V1.2.8 após a revisão do painel administrativo.
+
+### Painel administrativo mais claro
+O indicador de Favoritos foi removido do painel administrativo, deixando a visualização mais objetiva e focada nos indicadores principais de uso, recomendações, fluxo e visualizações.
+
+### Recomendações administrativas corrigidas
+Os números de Recomendações e Recomendações do Mês no Admin agora usam a soma real das recomendações por projeto. Quando o mesmo incentivo é recomendado para mais de um projeto, ele passa a contar uma vez por projeto, mantendo consistência com a regra aplicada em Explorar Incentivos e no Dashboard do usuário.
+
+### Versão V1.2.7
+A versão da plataforma foi atualizada para V1.2.7 após a melhoria das regras de recomendação por projeto.
+
+### Percentual mínimo configurável para recomendações
+O Admin agora pode configurar o percentual mínimo de match necessário para que um incentivo apareça como recomendado. A plataforma usa 50% como padrão e aplica essa regra tanto em Explorar Incentivos quanto no Dashboard.
+
+### Recomendações somadas por projeto
+Quando a opção Todos os projetos está selecionada, a plataforma agora soma as recomendações de todos os projetos. Se o mesmo incentivo for recomendado para mais de um projeto, ele é contado uma vez por projeto. O valor total dos incentivos recomendados segue a mesma lógica.
+
+### Listas completas e cache atualizado
+Foi removido o limite anterior de 50 recomendações por projeto, permitindo manter todas as recomendações válidas em cache. Também foram atualizados os caches do navegador e do servidor para evitar números antigos no Dashboard após mudanças nas regras.
+
+### Versão V1.2.6
+A versão da plataforma foi atualizada para V1.2.6 após a estabilização definitiva do motor de recomendações.
+
+### Recomendações estáveis e sem sumiço
+O motor de recomendações foi revisado ponta a ponta para eliminar o problema em que as recomendações de um projeto desapareciam após a execução periódica do sistema. Agora as recomendações anteriores são preservadas sempre que um novo cálculo não encontra correspondências, e a leitura passa a ter um cálculo ao vivo de fallback específico por projeto, garantindo que a lista nunca fique vazia quando o perfil do projeto tem correspondências válidas.
+
+### Mais resiliência no cálculo
+O mapeamento de categorias foi dividido em blocos para respeitar os limites técnicos do banco e evitar falhas silenciosas quando há muitos incentivos ativos. A atualização de projeto e a rotina periódica deixaram de apagar listas antigas antes do novo cálculo.
+
 ## 11 de Maio de 2026
 
-### Afiliados com dashboard e gestão de códigos
-A área de Afiliados foi reorganizada com submenu próprio, incluindo Dashboard, Meus Afiliados e Códigos. Agora usuários podem criar e gerenciar seus próprios códigos de afiliado, com o proprietário fixo no usuário logado.
+### Versão V1.2.5
+A versão da plataforma foi atualizada para V1.2.5 após a melhoria visual na identificação de formulários gerados por IA.
 
-### Dashboard de afiliados
-Foi criado um dashboard dedicado com métricas de afiliados, códigos ativos, incentivos recomendados, incentivos adicionados, empresas afiliadas, usuários individuais, códigos mais usados e afiliados recentes.
+### Legenda do selo IA
+A seção Meus Incentivos agora exibe uma legenda explicando que o selo verde IA indica que o incentivo já foi usado para gerar formulário de respostas por IA.
 
-### Ajustes para publishers
-O menu de publishers passou a mostrar Incentivos Publicados acima de Afiliados. A listagem de incentivos publicados foi ajustada para não depender do perfil salvo no token e o dashboard do publisher passou a limpar cache ao publicar ou atualizar incentivos.
+## 11 de Maio de 2026
 
-### Melhorias técnicas e visuais
-O submenu de Afiliados passou a seguir o mesmo padrão visual de Meu Perfil, e foi adicionado tratamento específico para ocultar um erro externo recorrente de core.js sem esconder erros reais da plataforma.
+### Versão V1.2.4
+A versão da plataforma foi atualizada para V1.2.4 após a correção da leitura dos objetivos dos projetos nas recomendações.
 
-### Versão V1.1.3
-A versão da plataforma foi atualizada para V1.1.3 após as melhorias em Afiliados, ajustes de publisher e correções de cache.
+### Objetivos em português e inglês
+A recomendação de incentivos agora reconhece objetivos independentemente de maiúsculas, acentos ou idioma, como Educação, educação, Education, Sustentabilidade Ambiental e Environmental sustainability. Isso evita perda de pontuação ou falhas de recomendação após editar e salvar objetivos do projeto.
 
-### Dashboard e métricas de incentivos
-O painel passou a exibir os principais indicadores em formato mais claro: incentivos recomendados, meus incentivos, incentivos disponíveis e seus valores resumidos em K/MM para facilitar a leitura.
+### Validação da LATESI
+Os três projetos da LATESI foram conferidos após a correção e continuam exibindo 50 recomendações visíveis cada um.
 
-### Remoção de favoritos
-A opção de incentivos favoritos foi removida da navegação e da interface, alinhando a experiência ao novo fluxo de incentivos adicionados.
+## 11 de Maio de 2026
 
-### Incentivos vinculados a projetos
-Ao adicionar um incentivo, usuários com mais de um projeto agora escolhem em qual projeto ele será salvo. Os incentivos já adicionados anteriormente foram associados ao projeto padrão do usuário.
-
-### Fluxo de trabalho por projeto
-A tela de Fluxo de Trabalho agora organiza Meus Incentivos em grupos por projeto e remove as etiquetas de aprovação que não fazem mais parte do fluxo.
-
-### Versão V1.1.2
-A versão da plataforma foi atualizada para V1.1.2 após os ajustes de dashboard, fluxo de trabalho e vínculo de incentivos a projetos.
-
-### Atualização automática de recomendações por projeto
-As recomendações por projeto agora são recalculadas em lote pelo cron do Worker, priorizando projetos nunca calculados ou com cálculo mais antigo. O processamento é limitado por execução para evitar sobrecarga no D1 e manter as leituras usando cache/KV.
-
-### Correção do Projeto 2 sem recomendações
-O fallback de recomputação foi ajustado para evitar excesso de variáveis SQL no D1 e preencher `project_recommendations` corretamente. O Projeto 2 foi validado com 50 recomendações salvas.
-
-### Versão V1.0.19
-A versão da plataforma foi atualizada para V1.0.19 após a correção e automação dos matches por projeto.
-
-### Correção no cálculo de recomendações por projeto
-As recomendações por projeto passaram a usar uma nova chave de cache e uma normalização mais ampla dos objetivos, evitando que projetos com critérios válidos apareçam sem recomendações.
-
-### Versão V1.0.18
-A versão da plataforma foi atualizada para V1.0.18 após a correção do cálculo de recomendações do Projeto 2.
-
-### Correção ao salvar projetos
-Salvar ou atualizar um projeto voltou a funcionar mesmo quando o cálculo de recomendações encontra algum problema temporário.
-
-### Versão V1.0.17
-A versão da plataforma foi atualizada para V1.0.17 após a correção do erro ao atualizar projetos.
-
-### Recomendações geradas ao salvar projetos
-Ao criar ou alterar um projeto, as recomendações agora são calculadas imediatamente, evitando que novos projetos apareçam sem resultados até a próxima consulta.
-
-### Versão V1.0.16
-A versão da plataforma foi atualizada para V1.0.16 após a correção do cálculo inicial de recomendações por projeto.
-
-### Ajustes visuais e paginação de recomendados
-A coluna de recomendados agora ocupa melhor a altura da tela e a visualização de recomendados na área principal passou a paginar de 9 em 9 itens.
-
-### Versão V1.0.15
-A versão da plataforma foi atualizada para V1.0.15 após os ajustes finais na tela de exploração de incentivos.
-
-### Correção na paginação de incentivos
-A listagem de incentivos agora informa corretamente o total de resultados e permite navegar de 9 em 9 cards sem esconder páginas disponíveis.
-
-### Versão V1.0.14
-A versão da plataforma foi atualizada para V1.0.14 após a correção da paginação e atualização do cache de recomendados.
-
-### Correção na quantidade de recomendados
-A lista de incentivos recomendados voltou a mostrar até 50 itens, evitando a redução indevida para apenas 15 recomendações.
-
-### Versão V1.0.13
-A versão da plataforma foi atualizada para V1.0.13 após a correção da quantidade de recomendações exibidas.
-
-### Melhorias em Explorar Incentivos
-A tela de exploração agora mostra a quantidade de incentivos recomendados, deixa os seletores mais claros e adiciona filtros por faixa de prazo e valor, incluindo ordenação por maior ou menor valor.
-
-### Versão V1.0.12
-A versão da plataforma foi atualizada para V1.0.12 após as melhorias na experiência de exploração de incentivos.
-
-### Cadastro mais claro e países traduzidos
-A lista de países no cadastro agora respeita o idioma selecionado e a conclusão do cadastro exibe uma mensagem clara antes do login.
-
-### Versão V1.0.11
-A versão da plataforma foi atualizada para V1.0.11 após as melhorias no fluxo de cadastro.
-
-### Correção da lista de países no cadastro
-A lista de países do cadastro voltou a carregar corretamente e agora possui fallback local para evitar campo vazio em caso de falha temporária da API.
-
-### Versão V1.0.10
-A versão da plataforma foi atualizada para V1.0.10 após a correção da lista de países no cadastro.
-
-### Correção no login
-A tela de login voltou a carregar sem chamadas indevidas para projetos quando o usuário ainda não está autenticado.
-
-### Versão V1.0.9
-A versão da plataforma foi atualizada para V1.0.9 após a correção do login.
-
-### Ajustes de idioma e botão em Projetos
-A tela de Projetos passou a usar traduções nos novos textos e o botão de criação agora mostra "Salvar" ao cadastrar um novo projeto.
-
-### Tratamento seguro dos recomendados por projeto
-Foi adicionado um tratamento seguro para evitar erro de carregamento ao filtrar recomendações por um projeto recém-criado.
-
-### Versão V1.0.8
-A versão da plataforma foi atualizada para V1.0.8 após os ajustes de tradução e recomendados por projeto.
-
-### Ajuste na criação de projetos
-Foi corrigido o botão de novo projeto para abrir corretamente o formulário de cadastro.
-
-### Ajuste nos recomendados por projeto
-Foi corrigida a exibição de incentivos recomendados para considerar as recomendações já salvas por projeto.
-
-Agora a visão "Todos os projetos" e a visão por projeto individual voltam a exibir oportunidades compatíveis.
-
-### Versão V1.0.7
-A versão da plataforma foi atualizada para V1.0.7 após os ajustes na camada de projetos.
-
-### Projetos no perfil do usuário
-O antigo Perfil de Correspondência foi evoluído para Projetos.
-
-Agora usuários seekers podem organizar suas informações de correspondência em projetos separados, cada um com briefing, objetivos, países e indústrias alvo próprios.
-
-Os cadastros existentes foram preservados e migrados automaticamente para um projeto inicial chamado "Projeto 1".
+### Versão V1.2.3
+A versão da plataforma foi atualizada para V1.2.3 após a correção das recomendações filtradas por projeto.
 
 ### Recomendações por projeto
-A tela Explorar Incentivos agora permite filtrar os incentivos recomendados por projeto ou visualizar todos.
+Foi corrigido um cenário em que alguns projetos de um mesmo usuário ficavam sem recomendações ao serem selecionados individualmente, mesmo havendo incentivos compatíveis. A plataforma agora recalcula automaticamente as recomendações quando um projeto específico ainda não possui resultados gravados.
 
-Com isso, cada projeto pode ter uma visão própria de oportunidades compatíveis.
+### Correção aplicada para LATESI
+Os três projetos da LATESI foram recalculados e passaram a exibir recomendações individualmente: eMuseu do Esporte, eMuseu da Cultura e eMuseu das Favelas.
 
-### Cadastro com briefing de projeto
-No cadastro de usuários seekers, passou a ser obrigatório informar os dados do primeiro projeto, incluindo o briefing do projeto.
+## 11 de Maio de 2026
 
-Usuários publishers continuam podendo concluir o cadastro sem projeto.
+### Versão V1.2.2
+A versão da plataforma foi atualizada para V1.2.2 após a correção da identificação visual de formulários já gerados por IA.
 
-### Versão V1.0.6
-A versão da plataforma foi atualizada para V1.0.6 após a entrega da camada de projetos.
+### Indicador de formulários já gerados
+Os incentivos que já possuem formulário de respostas por IA agora são reconhecidos mesmo quando o nome do documento gerado não é exatamente igual ao nome do incentivo. A página de Meus Incentivos passa a exibir o selo verde de IA e o popup separa corretamente os itens entre Não gerados e Já gerados.
 
-### Ajuste nos incentivos recomendados
-Foi corrigida a exibição de incentivos recomendados na tela de explorar incentivos.
+### Vínculo mais confiável no IA Forms
+O IA Forms passou a salvar o vínculo do documento gerado com o incentivo usando a posição da sessão como fallback, evitando perda de associação quando o nome retornado pela IA vem em formato diferente.
 
-A plataforma agora evita reutilizar listas vazias em cache e prioriza recomendações válidas já calculadas para o usuário.
+## 11 de Maio de 2026
 
-### Versão V1.0.5
-A versão da plataforma foi atualizada para V1.0.5 após a correção dos recomendados.
+### Versão V1.2.1
+A versão da plataforma foi atualizada para V1.2.1 após a correção do processo de recomendações por projeto.
+
+### Recomendações por projeto restauradas
+Foi corrigido um cenário em que um usuário podia ter recomendações calculadas internamente, mas não vê-las na tela porque a lista atual usa recomendações vinculadas ao projeto. O processo agora usa um caminho alternativo de cálculo quando o salvamento principal encontra falha, evitando que usuários fiquem sem recomendações após o cadastro ou atualização do projeto.
+
+### Correção aplicada para LATESI
+As recomendações do usuário LATESI foram recalculadas e restauradas, exibindo novamente incentivos compatíveis com as indústrias, países e objetivos do projeto cadastrado.
+
+## 11 de Maio de 2026
+
+### Versão V1.2.0
+A versão da plataforma foi atualizada para V1.2.0 após a entrega completa do Preenchimento Assistido por IA integrado ao Fluxo de Trabalho.
+
+### Preenchimento Assistido por IA no Fluxo de Trabalho
+Administradores agora podem iniciar o Preenchimento Assistido por IA diretamente em Meus Incentivos, selecionando um ou mais incentivos já adicionados ao Fluxo de Trabalho.
+
+### Integração automática com PDFs dos incentivos
+Ao iniciar o preenchimento assistido, os PDFs anexados aos incentivos selecionados são carregados automaticamente no IA Forms, sem necessidade de upload manual. Caso algum incentivo selecionado não possua PDF, a plataforma informa o problema antes de iniciar.
+
+### Formulários com dados pré-preenchidos
+O IA Forms passou a usar dados já existentes no cadastro do usuário, empresa e perfil para pré-preencher campos quando possível, mantendo todos os campos editáveis antes da geração dos documentos.
+
+### Formulários de respostas por IA no Fluxo de Trabalho
+Os documentos gerados pela IA ficam disponíveis na seção Formulários de respostas por IA, com opção de abrir, baixar e apagar com confirmação. Incentivos que já possuem formulário gerado recebem um indicador visual de IA e aparecem separados no popup de seleção.
+
+### Termos e Condições IA
+Foi criado um aceite obrigatório de Termos e Condições IA, com texto configurável no Admin, suporte a idiomas, registro de data, hora e IP do usuário, e bloqueio do preenchimento até o aceite.
+
+### Correções de estabilidade do IA Forms
+Foram ajustados limites de uso da IA para evitar bloqueios indevidos, melhoradas mensagens de erro, corrigida a abertura de documentos com acentuação e impedido que recarregar uma sessão já concluída gere novamente os documentos e consuma tokens.
+
+### Correção de atualização de perfil e empresa
+As telas de dados da conta e da empresa agora atualizam as informações imediatamente após salvar, evitando exibição temporária de dados antigos por cache.
 
 ## 09 de Maio de 2026
 
