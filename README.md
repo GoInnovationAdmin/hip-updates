@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.14
+A versão da plataforma foi atualizada para V1.2.14 após ajustes de tradução e clareza visual.
+
+### Legenda e textos mais claros
+A tela de Recomendações recebeu a legenda dos ícones de compatibilidade e teve seus textos revisados. A tela de Afiliados também teve rótulos ajustados para deixar claro o total de incentivos recomendados e as recomendações em cada card.
+
 ### Versão V1.2.13
 A versão da plataforma foi atualizada para V1.2.13 após correção nos indicadores de Afiliados.
 
