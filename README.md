@@ -6,6 +6,24 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.11
+A versão da plataforma foi atualizada para V1.2.11 após refinamentos visuais na tela de Recomendações.
+
+### Recomendações com filtros mais claros
+Os cards de Recomendações, Melhores matches e Vencendo em 30 dias passaram a destacar melhor o filtro ativo. Também foram removidos textos auxiliares redundantes, deixando a página mais limpa e direta.
+
+### Versão V1.2.10
+A versão da plataforma foi atualizada para V1.2.10 após a reorganização das telas de recomendações e exploração de incentivos.
+
+### Recomendações em página própria
+Foi criado o novo item de menu Recomendações, exibindo em uma tela dedicada os incentivos recomendados para todos os projetos do usuário. A tela também permite alternar entre a visão total e a visão individual de cada projeto.
+
+### Indicadores de recomendação mais claros
+Os indicadores Melhores matches e Vencendo em 30 dias agora funcionam como filtros clicáveis. Melhores matches considera recomendações com compatibilidade igual ou superior a 80%, com explicação disponível no ícone de ajuda, e Vencendo em 30 dias mostra apenas recomendações com prazo dentro dos próximos 30 dias.
+
+### Explorar Incentivos mais limpo
+A tela Explorar Incentivos agora fica focada apenas na busca e filtragem geral de incentivos. Com a saída da coluna de recomendações, a lista ganhou mais espaço e ficou mais simples de navegar.
+
 ### Versão V1.2.9
 A versão da plataforma foi atualizada para V1.2.9 após melhorias no Fluxo de Trabalho do publicador e no painel do usuário.
 
