@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.13
+A versão da plataforma foi atualizada para V1.2.13 após correção nos indicadores de Afiliados.
+
+### Recomendações de afiliados corrigidas
+A tela de Afiliados agora usa a contagem atual de recomendações por projeto, mantendo os números alinhados com a área de Recomendações. Também foi removido o indicador de confirmados dos cards individuais para deixar a leitura focada em recomendados e incentivos adicionados.
+
 ### Versão V1.2.12
 A versão da plataforma foi atualizada para V1.2.12 após ajuste no painel do usuário.
 
