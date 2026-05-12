@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.15
+A versão da plataforma foi atualizada para V1.2.15 após a aprovação do layout compacto da tela de Recomendações.
+
+### Recomendações mais visíveis em telas padrão
+A tela de Recomendações foi compactada para reduzir a necessidade de rolagem em monitores 16:9. Foram ajustados espaçamentos, cards, busca, abas de projeto, legenda e cards de incentivos para exibir mais conteúdo útil na primeira dobra da tela.
+
 ### Versão V1.2.14
 A versão da plataforma foi atualizada para V1.2.14 após ajustes de tradução e clareza visual.
 
