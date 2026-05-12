@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.17
+A versão da plataforma foi atualizada para V1.2.17 após revisão geral do suporte multilíngue.
+
+### Traduções revisadas nas telas novas
+As telas de Recomendações, Afiliados e Fluxo de Trabalho foram revisadas para acompanhar corretamente o idioma selecionado. Textos de indicadores, filtros, cards, áreas de afiliados e recursos de IA agora têm suporte em português, inglês e espanhol.
+
 ### Versão V1.2.16
 A versão da plataforma foi atualizada para V1.2.16 após correção de tradução no menu de Recomendações.
 
