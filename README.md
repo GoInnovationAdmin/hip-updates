@@ -6,6 +6,18 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.18
+A versão da plataforma foi atualizada para V1.2.18 após melhorias nas áreas de Afiliados, Fluxo de Trabalho e Login.
+
+### Afiliados com mais dados e clareza
+O Dashboard de Afiliados ganhou rankings por categoria, indústria e país, além de um funil geral de incentivos e novos indicadores de desempenho. A lista de afiliados agora mostra último login e acessos no último mês, facilitando o acompanhamento da atividade de cada afiliado.
+
+### Respostas por IA disponíveis entre dispositivos
+Os formulários gerados por IA agora ficam vinculados à conta do usuário e podem ser visualizados em outros computadores. A tela de Fluxo de Trabalho também marca corretamente os incentivos que já tiveram respostas geradas por IA.
+
+### Login com identidade visual atualizada
+A tela de login recebeu a nova animação da marca no card principal.
+
 ### Versão V1.2.17
 A versão da plataforma foi atualizada para V1.2.17 após revisão geral do suporte multilíngue.
 
