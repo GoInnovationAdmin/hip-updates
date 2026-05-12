@@ -6,6 +6,12 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.12
+A versão da plataforma foi atualizada para V1.2.12 após ajuste no painel do usuário.
+
+### Incentivos próximos do vencimento mais relevantes
+No Dashboard, a seção de incentivos com vencimento na próxima semana deixou de exibir incentivos que o usuário já adicionou ao seu fluxo. Assim, a lista passa a mostrar apenas oportunidades ainda não adicionadas.
+
 ### Versão V1.2.11
 A versão da plataforma foi atualizada para V1.2.11 após refinamentos visuais na tela de Recomendações.
 
