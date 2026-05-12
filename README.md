@@ -6,6 +6,15 @@
 
 ## 12 de Maio de 2026
 
+### Versão V1.2.9
+A versão da plataforma foi atualizada para V1.2.9 após melhorias no Fluxo de Trabalho do publicador e no painel do usuário.
+
+### Fluxo de Trabalho do publicador mais útil
+A seção Incentivos adicionados do publicador agora mostra os incentivos cadastrados que foram adicionados por outros usuários, incluindo a quantidade de usuários e de adições por incentivo. A seção Conexões confirmadas foi removida dessa visualização para deixar o fluxo mais simples e direto.
+
+### Painel do usuário atualizado corretamente
+O Dashboard agora atualiza os indicadores de Meus Incentivos e Valor dos meus Incentivos sempre que o usuário adiciona ou altera incentivos em seu fluxo. Isso evita que o painel mostre números antigos enquanto a tela de detalhes já exibe a lista atualizada.
+
 ### Versão V1.2.8
 A versão da plataforma foi atualizada para V1.2.8 após a revisão do painel administrativo.
 
