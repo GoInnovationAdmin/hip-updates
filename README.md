@@ -6,6 +6,12 @@
 
 ## 13 de Maio de 2026
 
+### Versão V1.2.21
+A versão da plataforma foi atualizada para V1.2.21 após ajuste de idioma nas telas de afiliados.
+
+### Rankings de afiliados traduzidos corretamente
+Os rankings de categorias, indústrias e países no Dashboard de Afiliados e no detalhe de cada afiliado agora acompanham o idioma selecionado pelo usuário, mantendo a experiência consistente em português, inglês e espanhol.
+
 ### Versão V1.2.20
 A versão da plataforma foi atualizada para V1.2.20 após melhorias no painel administrativo e nas recomendações.
 
