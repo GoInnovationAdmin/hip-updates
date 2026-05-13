@@ -4,6 +4,14 @@
 
 ---
 
+## 13 de Maio de 2026
+
+### Versão V1.2.19
+A versão da plataforma foi atualizada para V1.2.19 após ajuste de clareza no Dashboard de Afiliados.
+
+### Indicadores de afiliados mais claros
+O card de ações por afiliado deixou de ser exibido como percentual e agora mostra a média decimal de incentivos adicionados por afiliado. Também foram removidos os cards de empresas afiliadas e usuários individuais para simplificar a leitura do painel.
+
 ## 12 de Maio de 2026
 
 ### Versão V1.2.18
