@@ -6,6 +6,18 @@
 
 ## 13 de Maio de 2026
 
+### Versão V1.2.20
+A versão da plataforma foi atualizada para V1.2.20 após melhorias no painel administrativo e nas recomendações.
+
+### Visão de vencimentos futuros no painel administrativo
+A seção de Incentivos do painel administrativo agora mostra cards com os vencimentos previstos para os próximos 7, 30, 60 e 90 dias, facilitando o acompanhamento das oportunidades que exigem atenção.
+
+### Recomendações com percentual corrigido
+Os percentuais de compatibilidade das recomendações agora são limitados a 100%, evitando exibições acima do máximo esperado. Registros antigos também foram normalizados para manter a visualização consistente.
+
+### Métrica de afiliados mais clara
+O indicador de conversão dos afiliados passou a se chamar aproveitamento das recomendações e agora mostra uma descrição mais objetiva sobre quantas recomendações foram adicionadas pelos afiliados.
+
 ### Versão V1.2.19
 A versão da plataforma foi atualizada para V1.2.19 após ajuste de clareza no Dashboard de Afiliados.
 
