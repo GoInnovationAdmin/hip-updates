@@ -6,6 +6,12 @@
 
 ## 22 de Maio de 2026
 
+### Versão V1.2.23
+A versão da plataforma foi atualizada para V1.2.23 após ajuste de idioma nas listas de indústrias.
+
+### Mineração exibida no idioma correto
+A indústria Mineração agora aparece traduzida corretamente em português, inglês e espanhol nas listas de seleção e filtros da plataforma.
+
 ### Versão V1.2.22
 A versão da plataforma foi atualizada para V1.2.22 após melhorias no perfil, afiliados, painel administrativo e listas de seleção.
 
