@@ -6,6 +6,18 @@
 
 ## 22 de Maio de 2026
 
+### Versão V1.3.0
+A versão da plataforma foi atualizada para V1.3.0 após a ampliação do cadastro de editais para múltiplas indústrias.
+
+### Editais com mais de uma indústria
+O cadastro e a edição de editais agora permitem selecionar mais de uma indústria alvo. Isso ajuda quando uma oportunidade atende diferentes setores ao mesmo tempo, sem precisar duplicar o edital.
+
+### Busca e recomendações mais completas
+As buscas, filtros, recomendações, dashboards, afiliados, fluxo de trabalho e exportações passam a considerar todas as indústrias vinculadas ao edital. Assim, um edital com mais de uma indústria pode aparecer corretamente para usuários e projetos compatíveis com qualquer uma delas.
+
+### Compatibilidade com editais existentes
+Os editais que já estavam cadastrados com uma única indústria foram preservados e continuam funcionando normalmente. A plataforma passa a usar o novo formato de forma gradual, mantendo a leitura dos dados antigos.
+
 ### Versão V1.2.27
 A versão da plataforma foi atualizada para V1.2.27 após a inclusão do suporte a diferentes moedas nos editais.
 
