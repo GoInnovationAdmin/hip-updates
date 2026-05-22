@@ -6,6 +6,12 @@
 
 ## 22 de Maio de 2026
 
+### Versão V1.2.24
+A versão da plataforma foi atualizada para V1.2.24 após ampliação da lista de países.
+
+### Lista completa de países
+As listas de seleção de países agora exibem a relação completa de países, com nomes nos idiomas da plataforma. A opção Outros deixou de aparecer para novas escolhas. Os editais que já estavam cadastrados como Outros permanecem salvos e poderão ser revisados depois.
+
 ### Versão V1.2.23
 A versão da plataforma foi atualizada para V1.2.23 após ajuste de idioma nas listas de indústrias.
 
