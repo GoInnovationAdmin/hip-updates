@@ -6,6 +6,18 @@
 
 ## 22 de Maio de 2026
 
+### Versão V1.2.27
+A versão da plataforma foi atualizada para V1.2.27 após a inclusão do suporte a diferentes moedas nos editais.
+
+### Editais com diferentes moedas
+O cadastro e a edição de editais agora permitem escolher a moeda do valor informado, como USD, BRL ou EUR, sem depender do país do edital.
+
+### Valores separados por moeda
+Os painéis e listas de incentivos passam a exibir os valores respeitando a moeda cadastrada. Quando houver somas no dashboard, os valores aparecem separados por moeda, evitando que dólares, reais e euros sejam misturados em um único total.
+
+### Análise de editais por IA mais completa
+A análise automática de editais agora também identifica a moeda mencionada no documento, mantendo o valor financeiro mais claro para revisão e cadastro.
+
 ### Versão V1.2.26
 A versão da plataforma foi atualizada para V1.2.26 após revisão das telas que exibem listas de países.
 
