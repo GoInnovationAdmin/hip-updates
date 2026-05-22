@@ -6,6 +6,18 @@
 
 ## 22 de Maio de 2026
 
+### Versão V1.2.26
+A versão da plataforma foi atualizada para V1.2.26 após revisão das telas que exibem listas de países.
+
+### Países no idioma correto no perfil
+As listas de países em Meu Perfil e no cadastro agora acompanham o idioma selecionado pelo usuário. Em português, os países passam a aparecer como Brasil, Alemanha, Afeganistão e assim por diante, em vez dos nomes em inglês.
+
+### Versão V1.2.25
+A versão da plataforma foi atualizada para V1.2.25 após ajuste na tela de cadastro.
+
+### Países traduzidos no cadastro
+A lista completa de países no cadastro agora acompanha corretamente o idioma selecionado pelo usuário, incluindo português, inglês e espanhol.
+
 ### Versão V1.2.24
 A versão da plataforma foi atualizada para V1.2.24 após ampliação da lista de países.
 
