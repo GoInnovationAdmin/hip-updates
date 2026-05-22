@@ -4,6 +4,26 @@
 
 ---
 
+## 22 de Maio de 2026
+
+### Versão V1.2.22
+A versão da plataforma foi atualizada para V1.2.22 após melhorias no perfil, afiliados, painel administrativo e listas de seleção.
+
+### Recomendações mais claras nos primeiros passos
+O terceiro passo da tela inicial agora orienta o usuário a ver recomendações preparadas de acordo com seus objetivos, deixando o fluxo mais direto.
+
+### Listas de indústrias e categorias mais consistentes
+As opções de indústrias e categorias foram ajustadas para aparecerem de forma única e consistente nas telas de perfil, cadastro, busca, filtros e administração. Com isso, novas opções cadastradas no Admin passam a ficar disponíveis em toda a plataforma.
+
+### Código de indicação no perfil
+A tela Meu Perfil ganhou um campo para incluir, alterar ou remover o código de indicação vinculado ao usuário.
+
+### Afiliados com navegação por níveis
+A área de Afiliados agora permite acessar os afiliados de um afiliado selecionado, com navegação por caminho para facilitar o retorno aos níveis anteriores.
+
+### Painel administrativo com mais visibilidade
+O Admin ganhou exportação da relação de editais/incentivos e uma opção para expandir os rankings, permitindo consultar listas completas e identificar maiores e menores volumes por indústria, categoria e país.
+
 ## 13 de Maio de 2026
 
 ### Versão V1.2.21
