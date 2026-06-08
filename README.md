@@ -6,6 +6,9 @@
 
 ## 8 de Junho de 2026
 
+### Versão V1.3.1
+A versão da plataforma foi atualizada para V1.3.1 após melhorias no cadastro de editais, nos filtros de busca e no download de PDFs pelo Admin.
+
 ### Cadastro de editais mais completo
 O cadastro de editais agora conta com novos campos para ajudar na análise das oportunidades: valor máximo por projeto, leis de incentivo citadas, estados de abrangência no Brasil, tipo de proponente, restrições específicas e prazo contínuo.
 
@@ -23,6 +26,15 @@ O Admin passa a exibir e exportar os novos dados dos editais. Também foi inclu�
 
 ### Preparação para estados brasileiros
 A plataforma passou a ter uma lista própria de todos os estados brasileiros para uso nos editais. Nesta etapa, os estados são usados apenas para oportunidades do Brasil; outros países continuam sendo tratados pelo campo País.
+
+### Tela de cadastro mais alinhada
+A linha de detalhes do incentivo foi reorganizada para ficar mais alinhada com o formulário principal, deixando a tela de cadastro mais limpa e fácil de preencher.
+
+### Filtros de valores mais claros
+Os filtros de valor em Explorar Incentivos foram renomeados para diferenciar o valor total do edital do limite máximo que cada projeto pode receber.
+
+### Download de PDFs em fila
+O Admin agora pode iniciar o download dos PDFs dos editais selecionados ou filtrados em uma fila automática. O manifesto continua disponível como opção de apoio, mas deixou de ser o caminho principal para baixar os arquivos.
 
 ## 22 de Maio de 2026
 
