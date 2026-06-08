@@ -36,6 +36,9 @@ Os filtros de valor em Explorar Incentivos foram renomeados para diferenciar o v
 ### Download de PDFs em fila
 O Admin agora pode iniciar o download dos PDFs dos editais selecionados ou filtrados em uma fila automática. O manifesto continua disponível como opção de apoio, mas deixou de ser o caminho principal para baixar os arquivos.
 
+### Reprocessamento de editais com IA no Admin
+Na edição de um incentivo, o Admin agora pode pedir para a IA reprocessar o PDF e preencher apenas informações que ainda estejam em branco. Os dados sugeridos aparecem destacados em vermelho para facilitar a revisão antes de salvar. Depois que o incentivo é salvo e aberto novamente, os campos voltam à aparência normal.
+
 ## 22 de Maio de 2026
 
 ### Versão V1.3.0
