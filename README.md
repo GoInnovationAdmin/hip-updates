@@ -4,6 +4,26 @@
 
 ---
 
+## 8 de Junho de 2026
+
+### Cadastro de editais mais completo
+O cadastro de editais agora conta com novos campos para ajudar na análise das oportunidades: valor máximo por projeto, leis de incentivo citadas, estados de abrangência no Brasil, tipo de proponente, restrições específicas e prazo contínuo.
+
+### Leitura de PDFs por IA com mais informações
+Ao importar um edital por PDF, a análise automática passa a buscar essas novas informações no documento. Quando encontrar dados como Lei Rouanet, Lei de Incentivo ao Esporte, estados atendidos, restrições ou tipo de proponente, a plataforma preenche o cadastro para revisão antes de salvar.
+
+### Filtros mais detalhados em Explorar Incentivos
+A tela Explorar Incentivos agora permite filtrar oportunidades também por leis de incentivo, estados brasileiros, tipo de proponente, prazo contínuo, valor máximo por projeto e restrições específicas. Isso facilita encontrar editais que se encaixam melhor em cada necessidade.
+
+### Prazo contínuo nos editais
+Editais que não possuem uma data final fixa agora podem ser marcados como prazo contínuo. A data continua disponível no cadastro, mas deixa de ser obrigatória nesses casos.
+
+### Administração com mais visibilidade
+O Admin passa a exibir e exportar os novos dados dos editais. Também foi incluída uma opção para gerar uma relação dos PDFs dos editais selecionados ou filtrados, com links de download autorizados.
+
+### Preparação para estados brasileiros
+A plataforma passou a ter uma lista própria de todos os estados brasileiros para uso nos editais. Nesta etapa, os estados são usados apenas para oportunidades do Brasil; outros países continuam sendo tratados pelo campo País.
+
 ## 22 de Maio de 2026
 
 ### Versão V1.3.0
